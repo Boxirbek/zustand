@@ -1,0 +1,45 @@
+.single-product{
+    display: flex;
+}
+
+.right_single{
+    width: 50%;
+    height: 450px;
+    img{
+        border-radius: 15px;
+        width: 390px;
+        height: 350px;
+    }
+}
+.left_single{
+width: 50%;
+height: 450px;
+p{
+    text-align: left;
+    font-size: 20px;
+}
+span{
+  text-align: left;
+    font-size: 20px;  
+}
+}
+.single_title{
+text-align: left;
+}
+.single_prise{
+    font-size: 35px;
+text-align: left;
+
+}
+.btn_single{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn_single:hover{
+    background-color: #fff;
+    color: black;
+    border:solid 1px rgb(99, 99, 99);
+  box-shadow: 0px 4px 16px 2px rgb(139, 137, 137);
+}
